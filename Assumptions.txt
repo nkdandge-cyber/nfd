@@ -1,0 +1,8 @@
+Assumptions:
+1. Customer : Pet = 1:1
+2. IoT device/Cellular Tranmitters will be registed as part of registration process for the customer/pet.
+3. Location Data is stored as logitude, Latitude in Database
+4. IoT Device/Cellular Transmitters send data over HTTP to Rest API
+5. Location from Cellular Transmitters will be updated automatically every 5 mins (more the frequency, more burden on the location update service * DB)
+6.History/Searches are on UserEvents 
+7. 
